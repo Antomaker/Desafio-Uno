@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>encriptador</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="./logica.js"></script>
+</head>
+
+<body>
+    <div class="logo">
+        <img class="logoimg" src="./img/Logo.jpg" alt="logo alura">
+    </div>
+    
+        <textarea class="area" id="entrada" cols="30" rows="10" onclick="limpiar()">ingrese un texto</textarea>
+
+        <p id="advert"><img src="./img/Vector.jpg" id="imgico"> Solo letras minúsculas y sin acentos</p>
+
+
+        <button class="secreto" id="secret" onclick="encriptar()">Encriptador</button>
+        <button class="verdad" id="verdad" onclick="desencriptar()">Desencriptador</button>
+   
+
+    <div class="resultado" id="result">
+        
+        <img src="./img/Muneco.png" alt="imagen muñeco" id="muneco">
+        <p id="titulo">Ningún mensaje fue encontrado</p>
+        <p id="conte">Ingresa el texto que desees encriptar o desencriptar.</p>
+    </div>
+</body>
+
+</html>
